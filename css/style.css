@@ -1,0 +1,95 @@
+span.org-keyword {
+    font-weight: bold;
+}
+
+body {
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+}
+
+body>div {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.status {
+    text-align: right;
+    height: 2em;
+}
+
+div.status>a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 1em;
+}
+
+div.status>a:hover {
+    color: black;
+    border-bottom: 0.1em solid;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+    border-bottom: 0.1em solid;
+}
+h1>span.subtitle {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    
+}
+
+/* any top-level <ul> will be rendered as the sitemap */
+#content>.org-ul {
+    list-style: none;
+    font-size: 1em;
+    padding: 0;
+}
+
+#content>.org-ul>li {
+    font-size: 0.7em;
+    color: grey;
+    height: 5em;
+    text-align: left;
+}
+
+#content>.org-ul>li>a {
+    position: relative;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: left;
+    border-width: 0.15em;
+    border-style: dotted;
+    border-color: transparent;
+    outline : none;
+    margin: -0.15em;
+    top: 0.15em;
+}
+
+#content>.org-ul>li>a:hover, #content>.org-ul>li>a:focus {
+    border-color: maroon;
+}
+
+
+div.logo {
+    position: absolute;
+}
+
+div.logo a {
+    float: left;
+    margin-left: -1em;
+    margin-top: -1em;
+}
+
+div.logo img {
+    width: 4em;
+}
